@@ -1,0 +1,98 @@
+  body {
+      font-family: 'Roboto';
+      font: 25px;
+      /* Lato, sans-serif;*/
+      line-height: 200%;
+      color: #f5f6f7;
+  }
+
+  h2 {
+      font-family: 'Open Sans';
+  }
+
+  #myCarousel {
+      font: 15px Lato, sans-serif;
+  }
+
+  p { font-size: 16px; }
+
+  .yun_pic {
+      width: 80%;
+      height: 80%;
+  }
+
+  #overlay_img {
+      height: relative;
+      
+  }
+  #overlay_img:hover {
+      content: url('../img/yun_origin.png');
+      height: relative;
+      
+  }
+
+  .margin { margin-bottom: 45px;  }
+
+  .bg-white { 
+      /* background-image: url("bg_cloud.jpg"); */
+      background-color: white; /* Green */
+      color: #424242;
+  }
+
+  .bg-darkblue { 
+      background-color: #99d6ff; /* Dark Blue */
+      color: #282828;
+      padding-bottom: 20px;
+  }
+  .bg-lightblue {  
+      background-color: #bbdff7; /* White */
+      color: #555555;
+  }
+  .bg-gray { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+      padding-bottom: 0px;
+  }
+  .container-fluid {
+      padding-top: 20px;
+  }
+  .navbar {
+      min-height:90px !important;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+      letter-spacing: 5px;
+      background-color: transparent;
+  }
+  .navbar-nav  li a:hover {
+      color: #66c2ff !important;
+      border-bottom: 3px solid;
+  }
+
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: black;
+  }
+
+  .table {
+      border-bottom:0px !important;
+  }
+  .table th, .table td {
+      border: 1px !important;
+  }
+  .fixed-table-container {
+      border:0px !important;
+  }
+
+  #pin_menu {
+      /*background-color: #1abc9c;
+      border-radius: 13px;*/
+      color: #66c2ff !important;
+      border-top: 2px solid;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
