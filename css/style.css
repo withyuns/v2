@@ -22,12 +22,12 @@
   }
 
   #overlay_img {
-      height: relative;
+      min-width: 100%;
       
   }
   #overlay_img:hover {
       content: url('../img/yun_origin.png');
-      height: relative;
+      min-width: 100%;
       
   }
 
@@ -47,6 +47,7 @@
   .bg-lightblue {  
       background-color: #bbdff7; /* White */
       color: #555555;
+      padding-bottom: 0px;
   }
   .bg-gray { 
       background-color: #2f2f2f; /* Black Gray */
@@ -54,7 +55,7 @@
       padding-bottom: 0px;
   }
   .container-fluid {
-      padding-top: 20px;
+      padding-top: 0px;
   }
   .navbar {
       min-height:90px !important;
