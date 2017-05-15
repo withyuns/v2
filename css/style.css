@@ -10,11 +10,15 @@
       font-family: 'Open Sans';
   }
 
+  h3 {
+    font-family: 'Julius Sans One';
+  }
+
   #myCarousel {
       font: 15px Lato, sans-serif;
   }
 
-  p { font-size: 16px; }
+  p { font-size: 15px; }
 
   .yun_pic {
       width: 80%;
@@ -38,6 +42,13 @@
       background-color: white; /* Green */
       color: #424242;
       padding-bottom: 20px;
+  }
+
+  .bg-white-no-pad { 
+      /* background-image: url("bg_cloud.jpg"); */
+      background-color: white; /* Green */
+      color: #424242;
+      padding-bottom: 0px;
   }
 
   .bg-darkblue { 
