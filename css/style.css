@@ -37,6 +37,7 @@
       /* background-image: url("bg_cloud.jpg"); */
       background-color: white; /* Green */
       color: #424242;
+      padding-bottom: 20px;
   }
 
   .bg-darkblue { 
@@ -44,6 +45,14 @@
       color: #282828;
       padding-bottom: 20px;
   }
+
+  .bg-gray-no-pad {
+      background-color: #2f2f2f; /* Dark Blue */
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 0px;
+  }
+
   .bg-lightblue {  
       background-color: #bbdff7; /* White */
       color: #555555;
@@ -73,6 +82,10 @@
       border-bottom: 3px solid;
   }
 
+  .nav li a:link {
+    color: black !important;
+  }
+
   .carousel-control.right, .carousel-control.left {
       background-image: none;
       color: black;
@@ -98,5 +111,14 @@
       color: #777;
   }
 
-  /* Action for skill sections */
 
+  #logo-opacity {
+    opacity: 0.7;
+  }
+
+  /* Some changes from Bootstrap */
+  .alert {
+    height: 60px;
+    line-height:20px;
+    padding: 10px 20px;
+  }
