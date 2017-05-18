@@ -110,6 +110,9 @@ $(document).ready(function(){
 
 }(jQuery));
 
-
-
-$("#index3").load("index3.html");
+/* Load partial html files */
+$("#page0header").load("partial00_header.html");
+$("#page1aboutme").load("partial01_aboutme.html");
+$("#page2skills").load("partial02_skills.html");
+$("#page3projects").load("partial03_projects.html");
+$("#page4contacts").load("partial04_contacts.html");
