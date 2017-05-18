@@ -110,6 +110,6 @@ $(document).ready(function(){
 
 }(jQuery));
 
-$(function(){
-  $('#index3').load('index3.html');
-});
+
+
+$("#index3").load("index3.html");
