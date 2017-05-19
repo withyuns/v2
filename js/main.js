@@ -110,9 +110,27 @@ $(document).ready(function(){
 
 }(jQuery));
 
-/* Load partial html files -  */
+/* Load partial html files */
 $("#page0header").load("partial00_header.html");
 $("#page1aboutme").load("partial01_aboutme.html");
 $("#page2skills").load("partial02_skills.html");
 $("#page3projects").load("partial03_projects.html");
 $("#page4contacts").load("partial04_contacts.html");
+
+/* For profile part */
+document.getElementById("p1").onclick = function() {
+  document.getElementById("profileMe").innerHTML = "I am very passionate. I approach everything I do with passion. I love the sense of accomplishment I get from finishing a task with a satisfying outcome. It's extremely important to me to deliver the best results to clients. ";
+}
+document.getElementById("p2").onclick = function() {
+  document.getElementById("profileMe").innerHTML = "I am very optimistic. Even though I hate to fail, I'm not afraid of failing. I know that it's important to be adaptable, and there are always different approaches you can take to solving a difficult problem. Therefore, when I face any hurdles, I remain calm.";
+}
+document.getElementById("p3").onclick = function() {
+  document.getElementById("profileMe").innerHTML = "I am very critical thinker. Being optimistic does not mean I always have to agree with everyone. Approaching problems from a critical perspective is always important. From experiences both power blogger and academic proofs in college, I also think critics is very important after finish milestones/prototypes. There is not perfect solution that will satisfy everyone. The key is to try and see things from different perspectives. ";
+}
+document.getElementById("p4").onclick = function() {
+  document.getElementById("profileMe").innerHTML = "I'm very open-minded and have a great respect for diversity. I believe a variety of perspectives and opinions are essential for building the best products. My power blog and the opportunities it's given me have allowed me to travel all around the world. I've met photographers, chefs, singers, and people from different countries. It's really expanded my horizons and taught me the power of diversity. ";
+}
+document.getElementById("p5").onclick = function() {
+  document.getElementById("profileMe").innerHTML = "I am very team-oriented. My experience at university has taught me a lot about group collaboration. In the projects I've worked on, I've been a leader, a tester, a designer, and even a documentation manager. When everyone works together and maximizes the talents of the different members, great things can happen";
+}
+
