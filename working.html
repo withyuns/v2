@@ -734,6 +734,7 @@
             <strong>Used</strong> : JS / Leaflet / Django
             <br/><button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_ambulance">View</button>
             <a href="http://globalties.ucsd.edu/projects/cruz-roja-tijuana.html" target="_blank" class="btn btn-primary">Website</a>
+            <a href="https://www.youtube.com/watch?v=d-oJxxMPPq4" target="_blank"><button type="button" class="btn btn-default">Demo</button></a>
           </div>
         </div>
         <div class="col-sm-4">
@@ -748,7 +749,8 @@
           <img src="img/proj_foottracker_on.png" style="width:90%;" onmouseover="this.src='img/proj_foottracker.png';" onmouseout="this.src='img/proj_foottracker_on.png';"><h4>Locality</h4><p>Hot place suggestion app for first time visitor</p>
           <div class="well">
             <strong>Used</strong> : JS / Node.js (Express) / Leaflet / D3
-            <br/><button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_foottracker" disabled>In Progress</button>
+            <br/><button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_foottracker">View</button>
+            <a href="https://www.youtube.com/watch?v=V48_l5odt9k" target="_blank"><button type="button" class="btn btn-default">Demo</button></a>
           </div>
         </div>
       </div>
@@ -812,7 +814,7 @@
 <!-- All modals goes here -->
 <div class="container-fluid bg-white text-center"> 
 
-  <!-- Modal Locality -->
+    <!-- Modal Locality -->
     <div class="modal fade" id="modal_foottracker" role="dialog">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -822,11 +824,60 @@
               <img src="img/proj_foottracker.png">
               <h3><strong>Project <span class="label label-primary">Locality</span></strong></h3>
             </div>
-            <div class="modal-body">
+            <div class="modal-body text-left">
               <!-- Modal body -->
+                <div class="well text-center">
+                  <strong>Used</strong> : Node.js / Leaflet js / Yelp API / Google Map API
+                  <div class="space_paddig" style="height: 20px;"></div>
+                    <p>
+                      If you’ve ever been at a loss of what to do when you’re in a new or even local area, then look no further because our app, Locality, will allow you to find the hottest places.<br/><br/>
+ 
+                      We are trying to help people who are unfamiliar with an area to find something to do. The goal of our app is to provide people with a list of businesses and activities to explore based on a specified search or their current location. 
+                    </p>
+                </div>
+
+                <img src="img/proj/locality/00.png" class="col-sm-12"><br/>
+
+                <h3><span class="label label-info">Details</span></h3>
+                  <p>
+                    <div class="space_paddig" style="height: 20px;"></div>
+                    <img src="img/proj/locality/01.png" class="col-sm-12"><br/>
+
+                    Let’s say that you are visiting La Jolla for the first time and you have no idea where to go. You want to plan a day’s worth of activities but don’t know where to start. 
+ 
+                    Locality can help you achieve this. You can enter keywords into the search and Locality will search either based on your current location or a specified location.
+
+                    <div class="space_paddig" style="height: 20px;"></div>
+                    <img src="img/proj/locality/02.png" class="col-sm-12"><br/>
+
+                    After searching, you will be able to see the results on the map in the form of markers that cluster when you zoom out. When clicked, these markers will show a popup with details for that particular place and a button to access reviews. The search results are also displayed in a list with information for each result such as number of reviews, rating, and price.
+
+                    <br/>Below is also a graphic comparison of the businesses’ ratings and number of reviews.
+                    <div class="space_paddig" style="height: 20px;"></div>
+                    <img src="img/proj/locality/03.png" class="col-sm-12"><br/>
+                    Users can also sort the results based on their preferences (price, rating, category, etc.). 
+
+                    Additionally, users are able to favorite places that they might want to visit later either from the ‘Add’ buttons listed in the chart  or on the popup on each marker. 
+                     
+                    Clicking on the favorited place will bring the mapview to that specific marker. 
+                     
+                    From the list of favorited places, users can compare metrics such as rating and number of reviews to have a more visual way to distinguish between different options. 
+                     
+                    With Locality, users are able to explore things to do in a new destination or their local area through searching and comparing different places. 
+                  </p>
+
+                <h3><span class="label label-info">Wrap Up</span></h3>
+                  <p>
+                    <strong>- How to Complete Purpose</strong>
+                    Locality takes your current location but a location can be specified for you, in which you can put in a topic you’d be interested in or if you’re unsure, don’t put anything at all and Locality will automatically pick up all the hottest results for you to choose from! You can see what other users have reviewed on these places and add it to your list to save for later.<br/><br/>
+                     
+                    <strong>- Any extra added functionality</strong>
+                    Locality also allows you to visualize all this data easily, allowing you to filter based on what categories these businesses fall in, as well as viewing their ratings and reviews relative to each other on intuitive graph data that it automatically constructs for you.
+                  </p>
 
               <!-- Modal body End -->
             </div>
+
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
