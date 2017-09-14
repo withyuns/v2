@@ -173,7 +173,163 @@
 
 
   <!-- Second Projects Container -->
-  <div id="page3projects"></div>
+  <!--<div id="page3projects"></div>-->
+  <!-- 
+    ++    partial03_projects.html     ++    Add this line     ++++
+-->
+<div class="container-fluid bg-white text-center main_container" id="what">
+  <div class="space_paddig" style="height: 80px;"></div>
+  <div class="container text-left">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img/proj_title.png" alt="" style="padding-bottom: 20px;">
+        <div class="panel panel-default">
+            <div class="panel-heading"><h4>Programming Languages</h4></div>
+            <div class="panel-body" id="list-lang">
+              <button type="button" class="btn btn-primary skill-all" id="skill-js">JavaScript (ES6)</button><br/>
+              <button type="button" class="btn btn-primary skill-all" id="skill-java">Java</button>
+              <button type="button" class="btn btn-primary skill-all" id="skill-cplus">C++</button><br/>
+              <button type="button" class="btn btn-primary skill-all" id="skill-c">C</button><br/>
+              <button type="button" class="btn btn-primary skill-all" id="skill-html">HTML 5 / CSS 3</button><br/>
+              <button type="button" class="btn btn-primary skill-all" id="skill-sql">SQL</button><br/>
+              <button type="button" class="btn btn-primary skill-all" id="skill-python">Python</button><br/>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading"><h4>Library/Frameworks/Tools</h4></div>
+            <div class="panel-body" id="list-lib">
+              <button type="button" class="btn skill-all" id="skill-node">Node js</button>
+              <button type="button" class="btn skill-all" id="skill-express">Express js</button><br/>
+              <button type="button" class="btn skill-all" id="skill-ang2">Angular 2</button><br/>
+              <button type="button" class="btn skill-all" id="skill-jquery">jQuery/Ajax</button><br/>
+              <button type="button" class="btn skill-all" id="skill-jsp">JSP</button>
+              <button type="button" class="btn skill-all" id="skill-postgresql">PostgreSQL</button><br/>
+              <button type="button" class="btn skill-all" id="skill-android">Android Studio</button><br/>
+              <button type="button" class="btn skill-all" id="skill-bootstrap">Bootstrap</button><br/>
+              <button type="button" class="btn skill-all" id="skill-django">Django</button><br/>
+              <button type="button" class="btn skill-all" id="skill-firebase">Firebase</button><br/>
+              <button type="button" class="btn skill-all" id="skill-mongo">Mongo DB</button><br/>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading"><h4>Miscellaneous</h4></div>
+            <div class="panel-body" id="list-others">
+              <button class="btn btn-default skill-all" id="skill-ps">Photoshop</button>
+              <button class="btn btn-default skill-all">Sass</button>
+              <button class="btn btn-default skill-all">Ocaml</button>
+              <button class="btn btn-default skill-all">Prolog</button>
+              <button class="btn btn-default skill-all">MIPS</button>
+              <button class="btn btn-default skill-all">SPARK</button>
+              <button class="btn btn-default skill-all">Verilog</button>
+              <button class="btn btn-default skill-all">R</button>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div id="proj-box">
+            <h3>Qualifications</h3>
+            <hr>
+            <p>
+              <li><strong>Software Solutions:</strong> Proven success diagnosing and resolving software issues. Develop, maintain, and enhance front-end applications, while supporting support web application service features. Track record of matching business objectives to current and emerging technologies.</li>
+            </p>
+          </div>
+        </div>
+        <h2>Projects</h2>
+        <div class="row">
+          
+          <div class="col-sm-4">
+            <div class="panel panel-default proj-all" id="proj-pmp">
+              <div class="panel-body">
+                <img src="img/proj_pmp.png" style="width:90%;"><h4>Post My Pic</h4>
+                <span class="label label-primary">Under Construction</span>
+
+                <p>On-going project: personal daily gallery</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="panel panel-default proj-all" id="proj-cruz">
+              <div class="panel-body">
+                <img src="img/proj_ambulance_on.png" style="width:90%;" onmouseover="this.src='img/proj_ambulance.png';" onmouseout="this.src='img/proj_ambulance_on.png';"><h4>Cruz Roja Project</h4><p>A dispatching ambulances based on needs</p>
+                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_ambulance">View</button>
+                      <a href="http://globalties.ucsd.edu/projects/cruz-roja-tijuana.html" target="_blank" class="btn btn-primary">Website</a>
+                      <a href="https://www.youtube.com/watch?v=d-oJxxMPPq4" target="_blank"><button type="button" class="btn btn-default">Demo</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="panel panel-default proj-all" id="proj-kims">
+              <div class="panel-body">
+                <img src="img/proj_kimsmarket_on.png" style="width:90%;" onmouseover="this.src='img/proj_kimsmarket.png';" onmouseout="this.src='img/proj_kimsmarket_on.png';"><h4>KimsMarket</h4><p>Market webapp using database interaction</p>
+                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_kimsmarket">View</button>
+                      <a href="https://www.youtube.com/watch?v=PGd_7CMnb84" target="_blank"><button type="button" class="btn btn-default">Demo</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-sm-4">
+            <div class="panel panel-default proj-all" id="proj-foottracker">
+              <div class="panel-body">
+                <img src="img/proj_foottracker_on.png" style="width:90%;" onmouseover="this.src='img/proj_foottracker.png';" onmouseout="this.src='img/proj_foottracker_on.png';"><h4>Locality</h4><p>Hot place suggestion app for first time visitor</p>
+                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_foottracker">View</button>
+                      <a href="https://www.youtube.com/watch?v=V48_l5odt9k" target="_blank"><button type="button" class="btn btn-default">Demo</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 proj-all" id="proj-funko">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <img src="img/proj_funko_on.png" style="width:90%;" onmouseover="this.src='img/proj_funko.png';" onmouseout="this.src='img/proj_funko_on.png';"><h4>Funko Collection</h4><p>Online Funko collection for fans</p>
+                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_funko">View</button>
+                      <a href="https://cse134bfunko.firebaseapp.com/" target="_blank" class="btn btn-primary">Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="panel panel-default proj-all" id="proj-groupup">
+              <div class="panel-body">
+                <img src="img/proj_groupup_on.png" style="width:90%;" onmouseover="this.src='img/proj_groupup.png';" onmouseout="this.src='img/proj_groupup_on.png';"><h4>GroupUp!</h4><p>An wep app to find study group on campus</p>
+                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_groupup">View</button>
+                      <a href="http://mygroupup.herokuapp.com" target="_blank" class="btn btn-primary">Website</a>
+                      <a href="https://www.youtube.com/watch?v=bk_93b3VB44" target="_blank"><button type="button" class="btn btn-default">Demo</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-sm-4">
+            <div class="panel panel-default proj-all" id="proj-busbuzz">
+              <div class="panel-body">
+                <img src="img/proj_busbuzz_on.png" style="width:90%;" onmouseover="this.src='img/proj_busbuzz.png';" onmouseout="this.src='img/proj_busbuzz_on.png';"><h4>BusBuzz</h4><p> UCSD Shuttle bus availability/how full lines</p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_busbuzz">View</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="panel panel-default proj-all" id="proj-britney">
+              <div class="panel-body">
+                <img src="img/proj_britney_on.png" style="width:90%;" onmouseover="this.src='img/proj_britney.png';" onmouseout="this.src='img/proj_britney_on.png';"><h4>Britney Official Site</h4><p>Britney Spears Korean fanclub official site</p>
+                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_britney">View</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#"><img src="img/top_sky.png"/></a>
+</div>
+
+<!-- Second Projects Container -->
   <!-- Second Projects Container -->
 
   <!-- ## 5. Contacts page ## -->
