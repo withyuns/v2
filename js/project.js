@@ -1,11 +1,11 @@
 		$(document).ready(function(){
-			var height = ($("#proj-box").width())*0.32;
-			$("#proj-box").css("height",height);
+			// var height = ($("#proj-box").width())*0.32;
+			// $("#proj-box").css("height",height);
 		});
 
 		$(window).resize(function(){
-			var height = ($("#proj-box").width())*0.32;
-			$("#proj-box").css("height",height);
+			// var height = ($("#proj-box").width())*0.32;
+			// $("#proj-box").css("height",height);
 		});
 
 		$(".proj-all").mouseenter(function(){
