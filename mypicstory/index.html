@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Project Posefolio</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7CRoboto:300,400,500,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="row" id="top">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8"><img src="img/logo.png" alt=""></div>
+    <div class="col-sm-2"></div>
+  </div>
+  <div class="row">
+    <div class="list-group col-sm-2"></div>
+    <div class="list-group col-sm-2">
+      <div class="well">
+        Updated on <br/><strong>September 21, 2017</strong>
+      </div>
+      <a href="#intro" class="list-group-item">Intro</a>
+      <a href="#prototype" class="list-group-item">Prototypes & Design</a>
+      <a href="#technologies" class="list-group-item">Technologies</a>
+      <a href="#features" class="list-group-item">Features</a>
+      <a href="#progress" class="list-group-item">Progress</a>
+      <br/>Developing by
+      <a href="http://whyuns.com" target="blank"><img src="signature.jpg" alt="" style="width: 50%;"></a>
+    </div>
+
+    <div class="col-sm-6">
+      
+      <img src="img/main.png" alt="" style="width:80%;">
+      <h3>"I need a platform for both photographers and bloggers"</h3>
+      <!-- Intro section -->
+      <div id="intro" class="align-left">
+        <div class="panel panel-default">
+          <div class="panel-heading"><h4>Introduction</h4></div>
+          <div class="panel-body">
+            <h4><strong>Intro</strong></h4>
+            <p>
+              All motivation comes from my experience (photography as hobby, blogging experience), and I have many professional photographers and bloggers as human resources! - Good news!
+            </p>
+            <p>
+              Taking a picture is my favorite hobby, and I always uploads all pictures in existed blog platform after taking a shot. However, it is very inconvenient not to manage pictures using the platform. Sometimes I just want to show pictures only (Like, Instagram), but also I want to order pictures based on filters. (or show favorite pics only - owners selected). Instagram doesn’t have it! <br/><br/>
+
+              As a blogger, I need a storyline with multiple pictures. For example, let say I travel to New York, I want to post a travel story such as… “I took a subway and I lost my way, and I found best restaurant ever by chance!”.. This is how I share my all experience with others using my blog!<br/><br/>
+
+              Ok, I need combined platform! How..?
+            </p>
+            <hr/>
+            <h4>Target users</h4>
+            <p>
+              <li>Photograpers</li>
+              <li>Bloggers</li>
+              <li>Anyone who writes a diary with pictures</li>
+            </p>
+            <hr/>
+            <h4>Expectation</h4>
+            <p>
+              Expect to develop (including all feedback & testing): First prototype: Late October 2017, Final version: Early December 2017.
+              <li>To publish a new platform for picture gallery. </li>
+              <li>To share the platform using my Github or open-source library.</li>
+              <li>To expand any features with picture blocks</li>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel group start -->
+      <div class="panel-group" id="coll-list">
+
+        <!-- Intro section -->
+        <div id="prototype" class="align-left">
+          <div class="panel panel-default">
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#coll-list" href="#collapse1"><h4>Prototypes & Design</h4></a></div>
+
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">
+                <h3>First rending page</h3>
+                <a href="img/paper/first_screen.png" target="blank"><img src="img/paper/first_screen.png" alt="" style="width:100%;"></a>
+                <p>
+                  This is first page of the web app. The app has two modes.
+                  <li>Story mode - For Blogger</li>
+                  <li>Gallery mode - For Photographer</li>
+                  (I am planning to expand all other features in the future.) <br/>
+                  Depends on mode users chose, our app shows two different versions.
+                </p><br/>
+
+                <h3>1. Main page</h3>
+                <h4>- Category</h4>
+                <p>
+                  When users upload a file/files, user can choose category (If there is no, users can create new category). By default, users can see all pictures depends on category.
+                </p><br/>
+
+                <h4>- Filtering from main page</h4>
+                <p>
+                  For now, Pictures can be sorted based on date(posted/shoot), a number of views and favorited by owner. More filters can be added in the future.
+                </p><br/>
+
+                <h3>2. Story Mode</h3>
+                <p>
+                  This page only show all list of stories. Users can choose any picture as thumnail when they make the story OR when they modify the story. Following by thumnails, short description will be shown.
+                </p><br/>
+
+                <h3>3. Gallery Mode</h3>
+                <p>
+                  Just like other pictures app, this mode displayed all images. All image is clickable, so users can enlarge the image by clicking it.
+                </p><br/>
+
+                <hr/>
+                <a href="img/paper/upload.png" target="blank"><img src="img/paper/upload.png" alt="" style="width:100%;"></a>
+                <h3>Uploading page</h3>
+                <p>
+                  When users upload image file, users can choose category OR users can create a new category. Users can choose a date shoot (otherwise, uploading date will be set). Users can put a title and description. <br/>
+
+                  If users want to make a story, then just click a "Make a Story" button. Then users can see other window that can include multiple images, and also can give title and description for the story.
+                </p>
+                <hr/>
+                <a href="img/prototype.png" target="blank"><img src="img/prototype.png" alt="" style="width:100%;"></a>
+                <p>
+                  
+                </p>
+                <hr/>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Technologies section -->
+        <div id="technologies" class="align-left">
+          <div class="panel panel-default">
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#coll-list" href="#collapse2"><h4>Technologies</h4></a></div>
+
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>
+                  Initially, MEAN stack (Mongo DB, Express, Angular 2, Node): The app will use MEAN Stack technologies because it is easy to manage using single language JavsScript(+ES6/TypeScript) and Angular 2 is well-organized frameworks. - However, I did not decide which DB technologies to be used. (RDBS vs. NoSQL)
+                </p>
+                <hr/>
+                <h4>Architectures</h4>
+                <p>
+                  Coming Soon. (Angular 2 architecture for this app will be updated pretty soon!)
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Features section -->
+        <div id="features" class="align-left">
+          <div class="panel panel-default">
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#coll-list" href="#collapse3"><h4>Main Features</h4></a></div>
+
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+                <h4><strong>Data model - "Picture blocks"</strong></h4>
+                <a href="img/paper/data_model.png" target="blank"><img src="img/paper/data_model.png" alt="" style="width:100%;"></a>
+                <p>
+
+                </p>
+                <a href="img/paper/view.png" target="blank"><img src="img/paper/view.png" alt="" style="width:100%;"></a>
+
+                <h4><strong>1. Display</strong></h4>
+                <p>
+                  The app will give three view-modes (Default/Photographers/Story)
+                  Paper prototypes for modes are up.
+                </p>
+                <hr/>
+                <h4><strong>2. Sorting & Grouping</strong></h4>
+                <p>
+                  Users can sort pictures based on category, dates, story(grouping)
+                </p>
+                <hr/>
+                <h4><strong>3. Make a story with pictures</strong></h4>
+                <p>
+                  Users can sort pictures based on category, dates, story(grouping) + More filtering will be added
+                </p>
+                <hr/>
+                <h4><strong>More features...</strong></h4>
+                <p>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress section -->
+        <div id="progress" class="align-left">
+          <div class="panel panel-default">
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#coll-list" href="#collapse4"><h4>Project Progress</h4></a></div>
+
+            <div id="collapse4" class="panel-collapse collapse">
+              <div class="panel-body">
+                <h4>~ September 21. 2017</h4>
+                <p>
+                  Finish to set up environment, and configuring Angular 2 architecture based on paper prototypes. (Components/Templates/Modules set up)
+                </p>
+                <hr/>
+                <h4>~ September 18. 2017</h4>
+                <p>
+                  Finish a demo-prototype for actual web - Decided a layout for a main page.
+                </p>
+                <hr/>
+                <h4>~ September 7. 2017</h4>
+                <p>
+                  Discuss more requirements and modify some requirements from bloggers and photographers. Finished paper prototypes.
+                </p>
+                <hr/>
+                <h4>~ August 25. 2017</h4>
+                <p>
+                  Finish to get knowledge of Angular 2 - Development of demos (Already familar with Angular.js - But I choose Angular 2 as a framework for this app).
+                </p>
+                <hr/>
+                <h4>~ August 20. 2017</h4>
+                <p>
+                  Define requirements from my experiences & gathering informations from bloggers & photographers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- Panel group End -->
+
+
+
+    <div class="list-group col-sm-2"></div>
+  </div>
+</body>
+
+</html>

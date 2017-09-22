@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto';
+    font: 25px;
+    line-height: 200%;
+}
+
+p { 
+	font-size: 15px; 
+}
+
+#top {
+
+    background-image: url(bg.png);
+    height: 200px;
+}
+.align-left {
+    text-align: left;
+    margin-top: 20px;
+}
